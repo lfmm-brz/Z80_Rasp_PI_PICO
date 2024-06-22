@@ -13,3 +13,5 @@ Tudo é muito simples, conectar alguns fios, fazer o upload de alguns arquivos, 
 No primeiro teste usei somente o Pi Pico e o módulo SD Card, sem jumpers e sem micro switches, funcionou perfeitamente.
 
 Temos o programa monitor que é o Small Computer Monitor, BASIC e CP/M. Também temos uma porta de 8 bits (GPIO16, GPIO17, GPIO18, GPIO19, GPIO20, GPIO21, GPIO26, GPIO27).
+
+Obs.: Não há necessidade de ser um Rasp PI PICO W.
