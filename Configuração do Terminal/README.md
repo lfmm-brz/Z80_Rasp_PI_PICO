@@ -1,1 +1,1 @@
-
+Configuração do Terminal
