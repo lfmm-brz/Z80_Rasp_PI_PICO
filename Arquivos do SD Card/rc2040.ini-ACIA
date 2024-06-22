@@ -1,0 +1,32 @@
+[IDE]
+idefile = "CPM Inc Transient Apps ACIA.img";
+idefilei = "CPMIDE.id";
+
+[ROM]
+a13 = 0;
+# Address switches 0=0x0000 100=0x8000 111=0xE000
+a14 = 0;
+a15 = 1;
+
+# Size of ROM
+romsize=0x4000;
+
+#ROM file as ROM source
+romfile = "R0001009.BIN";
+# source for Rom Loading - see a13 a14 a15
+
+[CONSOLE]
+# Console port 0=UART or 1=USB
+port = 1;
+
+[EMULATION]
+# ACIA=0 SIO=1;
+# ACIA selected
+serialtype = 0;
+# describe the ini
+inidesc="ACIA using R0001009.BIN";
+
+[SPEED]
+# Pico overclocking *1000 Mhz
+overclock = 250;
+# overclock the Pico at 250 x 1000
